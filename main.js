@@ -93,5 +93,9 @@ function updateDisplay() {
 
 function calculate() {
     currentState = eval(currentState).toString();
+
+    if(currentState[4] == 0) {
+        currentState = currentState.slice(0, 4);
+    }
     updateDisplay();
 }
