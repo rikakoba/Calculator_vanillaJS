@@ -1,0 +1,67 @@
+.results {
+    width: 260px;
+    height: 70px;
+}
+
+#delete, #clear {
+    background-color: #a5a5a5;
+}
+
+.equals {
+    background-color: orange;
+    grid-column: span 2;
+    width: auto;
+    border-radius: 20px;
+}
+
+button {
+    color: white;
+    font-size: 20px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+}
+
+button:hover {
+    background-color: #ddd;
+}
+
+.frame {
+    background-color: black;
+    width: 350px;
+    padding: 20px;
+    border-radius: 10px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.number  {
+    background-color: rgb(51, 51, 51);
+}
+
+.operation {
+    background-color: orange;
+}
+
+.numbers {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+}
+
+#expresion {
+    font-size: 20px;
+    color: white;
+    text-align: right;
+}
+
+.operations {
+    display: flex;
+    flex-direction: column;
+}
